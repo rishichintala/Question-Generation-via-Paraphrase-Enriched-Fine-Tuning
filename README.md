@@ -1,4 +1,4 @@
-# TextAnalytics_SharedTask
+# Text Analytics Shared Task
 
 How to Ask Good Questions? Try to Leverage Paraphrases” (ACL 2020)
 https://aclanthology.org/2020.acl-main.545.pdf
