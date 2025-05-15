@@ -10,9 +10,9 @@ This project reproduces and extends the ACL 2020 paper **“How to Ask Good Ques
 
 ## 🧠 Project Summary
 
-We explored how paraphrase knowledge can improve the quality of automatically generated questions. The core idea is that by exposing models to diverse question formulations, we can generate more natural, human-like questions from simple input sentences.
+I explored how paraphrase knowledge can improve the quality of automatically generated questions. The core idea is that by exposing models to diverse question formulations, we can generate more natural, human-like questions from simple input sentences.
 
-Our implementation followed a three-model strategy:
+I implemented by following a three-model strategy:
 
 - **Baseline Model**: A BART model fine-tuned on SQuAD to generate questions based on sentence–answer pairs.
 - **Hybrid Model (Hybrid-2)**: A BART model further fine-tuned with paraphrased questions and special highlighting tokens to guide answer focus.
@@ -26,7 +26,7 @@ Our implementation followed a three-model strategy:
 
 ## ⚠️ Limitations
 
-Due to resource constraints, we used a smaller paraphrase dataset compared to the original paper. We also did not implement the Hybrid-1 model or conduct BLEU/ROUGE evaluations. The focus was on reproducing key ideas and comparing model behavior qualitatively.
+Due to resource constraints, I used a smaller paraphrase dataset compared to the original paper. I also did not implement the Hybrid-1 model or conduct BLEU/ROUGE evaluations. The focus was on reproducing key ideas and comparing model behavior qualitatively.
 
 ## 📌 Outcome
 
